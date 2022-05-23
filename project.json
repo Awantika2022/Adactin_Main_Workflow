@@ -1,0 +1,146 @@
+{
+  "name": "Adactin_App",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Hotel_Library": "[1.0.12]",
+    "ReporterForUiPath.Activities": "[2.0.0]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.1]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.Testing.Activities": "[22.4.2]",
+    "UiPath.UIAutomation.Activities": "[22.4.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.1.0",
+  "projectVersion": "1.0.1",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "66560937-85ce-43b7-874f-309794c163b1",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_101.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fcb9b542-3760-45c1-98e8-b1ea24331cc7",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_102.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c7e25e46-132a-44d5-bea3-4ee89eacbf19",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_104.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "fb06df46-5085-42a6-a9d8-18532f2f3793",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_105.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f132336c-9830-4df2-a8d7-04c52410a138",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_106.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "469265a3-c371-4b07-9277-57b254e16d7b",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_107.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "d8dc1ca0-e286-4a6f-af99-c9ee0c54a9ca",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_108.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "cfd11d40-f23a-4378-8ed4-6df43d1ce075",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_109.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "02d10b18-0c5d-46f8-964a-0480bc07c649",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_110.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "99d6d7d7-3318-4c16-9090-f715fc057b96",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_111.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "11964a3e-2c1c-4b36-af64-8bb77f8feb53",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_112.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "f62e368f-b42e-4a35-90f9-bb2164cf24c8",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_113.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "1898799c-21a6-436a-b06f-7085cc6c6bf0",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_114.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "c9ecf980-a740-4292-809a-048d15f00d6b",
+        "testCaseType": "TestCase",
+        "fileName": "common for all\\TC_115.xaml"
+      }
+    ],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "797abf20-a308-4c9b-ab71-ee95ba369056",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
