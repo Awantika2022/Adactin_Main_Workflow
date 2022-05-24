@@ -6,7 +6,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>558,3940.66666666667</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>558,3742.66666666667</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>TC_110_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -88,7 +88,7 @@
       <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC_110" sap:VirtualizedContainerService.HintSize="476,3876" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC_110" sap:VirtualizedContainerService.HintSize="476,3678" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -110,13 +110,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ra:StepStatus>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Adactin.com - Search Hotel" sap:VirtualizedContainerService.HintSize="434,3296.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d7c4506e-f996-4178-ad72-9bc3a541ef5d" Version="V1">
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Adactin.com - Search Hotel" sap:VirtualizedContainerService.HintSize="434,3098.66666666667" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="d7c4506e-f996-4178-ad72-9bc3a541ef5d" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,3078.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,2880.66666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="Total_Price" />
               <Variable x:TypeArguments="x:String" Name="PricePerNight" />
@@ -316,17 +316,6 @@
             </uix:NClick>
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="Selected hotel from list" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_5" Name="Select Hotel" Status="Compare" TakeScreenshot="True" />
             <ra:StepStatus ActualResult="{x:Null}" CodeBlock="{x:Null}" ContinueOnError="{x:Null}" ExpectedResult="{x:Null}" statusInfo="{x:Null}" Description="[&quot;Total Price calculated in Book Hotel Page  &quot;+Total_Price]" DisplayName="Step Status" sap:VirtualizedContainerService.HintSize="334,134.666666666667" sap2010:WorkflowViewState.IdRef="StepStatus_3" Name="Total_Price" Status="Compare" TakeScreenshot="True" />
-            <uix:NClick ClickType="Double" DisplayName="Click 'Close'" sap:VirtualizedContainerService.HintSize="334,158" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d7c4506e-f996-4178-ad72-9bc3a541ef5d" Version="V1">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable DesignTimeRectangle="1862, 11, 69, 44" ElementType="Button" FriendlyName="'Close'" FullSelectorArgument="&lt;ctrl name='Adactin.com - Book A Hotel - Google Chrome - Awantika (testingxp*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Adactin.com - Book A Hotel - Google Chrome - Awantika (testingxp*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="5b520703-c8c0-4cf7-8d22-782fbae3d76f" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAwCAYAAABdXlfVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAEPSURBVGhD7dShDsIwFEbhvjCWl8BhSBBonoA3wCIxGCQGBWYJScklTJS02Q8su1ecm5xMtBP9sjUxzDiTmea8iVI63btMZdfuUSLtLrdMZQYF0kAgCYEkBJIQSEIgCYEkBJIQSEIgCYEkFAJpvtrk7fFcXWtl++292trYhUDqD6xCfbv/38L8burBpwayQt1JQwAeQFa4i7sF4QVkhUOyPkE8gayQSFYPs94fXIGssEiWAc0Wy9eztj5VfElC3ElC4ZBaIJ5QoZCGILygwiCpAB5QIZC+PfjUUCGQfjlwD1VbG7twF3fEQBICSQgkIZCEQBICSQgkIZCEQBICSQgkIZCEQBICSQgkIZCESqSUnkBamf2orzojAAAAAElFTkSuQmCC" InformativeScreenshot="a4c6b3ff40b26e0b3ece8e2cc42aaf98.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Adactin.com - Book A Hotel - Google Chrome' /&gt;" SearchSteps="Selector" Visibility="Interactive">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1793, 11, 69, 44" ElementType="Button" FriendlyName="'Restore'" FullSelectorArgument="&lt;ctrl name='Adactin.com - Book A Hotel - Google Chrome - Awantika (testingxp*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Adactin.com - Book A Hotel - Google Chrome - Awantika (testingxp*' role='pane' /&gt;&lt;ctrl name='Google Chrome' role='pane' /&gt;&lt;ctrl name='Restore' role='push button' automationid='' check:text='Restore' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEkAAAAwCAYAAABdXlfVAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAC/SURBVGhD7dKxDYMwEEBRL8wmqTIMy2SB9KShMqJzcYJvCThQ/kmvscxJfLk4zjFTnd0pn99cta2M36lqm5EAIwFGAowEGAkwEmAkwEiAkQAjAUYC0iMNr3eXaMfZbhEpOo8YCfirSOvP9mi/a/dcJS1SdB4xEmAkwEiAkQAjAUYCjASsd1vRnbM96iVlMRKQFqlHtONKKZGexkiAkQAjAUYCjAQYCTASYCTASICRACMBRgKMBBgJMBJgpF1TXQDvQqNk2CrSpQAAAABJRU5ErkJggg==" SearchSteps="Selector" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-            </uix:NClick>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
